@@ -1,3 +1,7 @@
+//Firmware para tarjeta de adquisicion y comunicacion serial con interfaz grafica para monitoreo 
+//realizada en labview para sistema de monitoreo de fugas
+
+
 #define factor_conversion1 7.5
 #define factor_conversion2 7.5
 float TiempoMuestreo = 0.1; //en segundos

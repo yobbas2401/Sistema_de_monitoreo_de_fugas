@@ -1,3 +1,4 @@
+//comunicacion serial entre tarjeta de adquisicion de datos y software de interfaz en labview.
 
 int Tdisparo= 0;  //tiempo del disparo
 //int pinPot = 5;  //entrada potenciometro

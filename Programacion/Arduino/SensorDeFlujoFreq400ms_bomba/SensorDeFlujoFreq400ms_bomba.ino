@@ -37,6 +37,7 @@ void setup()
   t0=millis();
 } 
 
+//funcion principal que se ejecuta en todo momento
 void loop ()    
 {
   
@@ -102,7 +103,7 @@ void LEERSERIAL(){
   }
   if(flag==1)
   {
-  index1= recepcion.indexOf('T');
+  index1= recepcion.indexOf('T'); //indice que se utiliza para identificar y separar el tipo de dato (tiempo de muestreo) en la cadena de caracteres
   index2= recepcion.indexOf('B');
   //index3= recepcion.indexOf('P');
   Ttex= recepcion.substring(index1+2, index2-1);
